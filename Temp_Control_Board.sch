@@ -1215,7 +1215,7 @@ Text Label 4710 6990 0    50   ~ 0
 TC+
 Text Label 4710 7090 0    50   ~ 0
 TC-
-Text GLabel 4260 2330 2    50   Input ~ 0
+Text GLabel 2420 3430 0    50   Input ~ 0
 FT_PWREN
 Text GLabel 2420 3330 0    50   Input ~ 0
 FT_CTS
@@ -1265,7 +1265,6 @@ NoConn ~ 2500 2030
 NoConn ~ 2500 1930
 NoConn ~ 2500 3130
 NoConn ~ 2500 3230
-NoConn ~ 2500 3430
 NoConn ~ 4100 2830
 NoConn ~ 4100 1930
 NoConn ~ 4100 1830
@@ -1371,4 +1370,7 @@ F 3 "~" H 2360 5230 50  0001 C CNN
 	1    2360 5030
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2420 3430 2500 3430
+NoConn ~ 4260 2330
 $EndSCHEMATC
