@@ -11,11 +11,11 @@ This is a control board for a toaster oven reflow project. It will use the follo
 
 Release V1.0 Images:
 
-![Release v1.0 PCB](https://imgur.com/KFJbnUy "Release v1.0 Schematic")
+![Release v1.0 PCB](https://imgur.com/KFJbnUy.jpeg "Release v1.0 Schematic")
 
-![Release v1.0 PCB](https://imgur.com/yATszyf "Release v1.0 PCB")
+![Release v1.0 PCB](https://imgur.com/yATszyf.jpeg "Release v1.0 PCB")
 
-![Release v1.0 PCB](https://imgur.com/CQYF5gV "Release v1.0 Render")
+![Release v1.0 PCB](https://imgur.com/CQYF5gV.jpeg "Release v1.0 Render")
 
 
 
