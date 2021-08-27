@@ -1,0 +1,28 @@
+Drill report for D:\PCBProjects\Temp_Control_Board\Temp_Control_Board.kicad_pcb
+Created on 8/19/2021 11:31:33 PM
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'Temp_Control_Board.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.38mm  0.015"  (58 holes)
+    T2  1.00mm  0.039"  (9 holes)
+    T3  1.52mm  0.060"  (6 holes)
+    T4  2.10mm  0.083"  (2 holes)  (with 2 slots)
+
+    Total plated holes count 75
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+    T5  0.45mm  0.018"  (2 holes)
+    T6  2.01mm  0.079"  (4 holes)
+    T7  3.20mm  0.126"  (4 holes)
+
+    Total unplated holes count 10
