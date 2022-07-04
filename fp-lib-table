@@ -1,0 +1,10 @@
+(fp_lib_table
+  (lib (name "ft232r")(type "KiCad")(uri "${KIPRJMOD}/parts/usb_to_serial/ft232r.pretty")(options "")(descr ""))
+  (lib (name "microsd_connector")(type "KiCad")(uri "${KIPRJMOD}/parts/microsd_connector")(options "")(descr ""))
+  (lib (name "art")(type "KiCad")(uri "${KIPRJMOD}/parts/art")(options "")(descr ""))
+  (lib (name "ROTARY_ENC_PEC12R")(type "KiCad")(uri "${KIPRJMOD}/parts/rotary_encoder/ROTARY_ENC_PEC12R.pretty")(options "")(descr ""))
+  (lib (name "esp32")(type "KiCad")(uri "${KIPRJMOD}/parts/esp32/")(options "")(descr ""))
+  (lib (name "3V3_regulator")(type "KiCad")(uri "${KIPRJMOD}/parts/3V3_regulator")(options "")(descr ""))
+  (lib (name "tactile_switch")(type "KiCad")(uri "${KIPRJMOD}/parts/tactile_switch/footprints.pretty")(options "")(descr ""))
+  (lib (name "usb_connector")(type "KiCad")(uri "${KIPRJMOD}/parts/usb_connector/")(options "")(descr ""))
+)
