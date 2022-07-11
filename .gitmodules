@@ -1,0 +1,3 @@
+[submodule "sw/tcb_hardware_test_sw"]
+	path = sw/tcb_hardware_test_sw
+	url = git@github.com:mcupka/tcb_hardware_test_sw.git
