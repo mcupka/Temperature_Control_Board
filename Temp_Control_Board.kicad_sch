@@ -2921,7 +2921,7 @@
     (uuid 00000000-0000-0000-0000-0000607af546)
     (property "Reference" "U1" (id 0) (at 83.82 34.6202 0))
     (property "Value" "ESP-WROOM-32" (id 1) (at 83.82 36.9316 0))
-    (property "Footprint" "" (id 2) (at 83.82 66.802 0)
+    (property "Footprint" "esp32:MODULE_ESP-WROOM-32" (id 2) (at 83.82 66.802 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "" (id 3) (at 83.82 66.802 0)
@@ -2988,8 +2988,8 @@
   (symbol (lib_id "Switch:SW_Push") (at 59.944 127.762 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000607b30f3)
-    (property "Reference" "BOOT1" (id 0) (at 59.944 120.523 0))
-    (property "Value" "SW_Push" (id 1) (at 59.944 122.8344 0))
+    (property "Reference" "SW1" (id 0) (at 59.944 120.523 0))
+    (property "Value" "BOOT" (id 1) (at 59.944 122.8344 0))
     (property "Footprint" "tactile_switch:PTS645SK43SMTR92LF-CONNECTED" (id 2) (at 59.944 122.682 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3003,8 +3003,8 @@
   (symbol (lib_id "Switch:SW_Push") (at 59.944 144.018 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000607ca03c)
-    (property "Reference" "EN1" (id 0) (at 59.944 136.779 0))
-    (property "Value" "SW_Push" (id 1) (at 59.944 139.0904 0))
+    (property "Reference" "SW2" (id 0) (at 59.944 136.779 0))
+    (property "Value" "EN" (id 1) (at 59.944 139.0904 0))
     (property "Footprint" "tactile_switch:PTS645SK43SMTR92LF-CONNECTED" (id 2) (at 59.944 138.938 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3516,7 +3516,7 @@
     (uuid 00000000-0000-0000-0000-0000607f5ada)
     (property "Reference" "J3" (id 0) (at 237.6678 37.6682 0))
     (property "Value" "USB_B_Micro" (id 1) (at 237.6678 39.9796 0))
-    (property "Footprint" "" (id 2) (at 240.03 50.8 0)
+    (property "Footprint" "usb_connector:GCT_USB3076-XX-X_REVC" (id 2) (at 240.03 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 240.03 50.8 0)
@@ -4232,9 +4232,6 @@
     (path "/00000000-0000-0000-0000-000060e233c2"
       (reference "#PWR0111") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-0000607b30f3"
-      (reference "BOOT1") (unit 1) (value "SW_Push") (footprint "tactile_switch:PTS645SK43SMTR92LF-CONNECTED")
-    )
     (path "/00000000-0000-0000-0000-0000607d60a1"
       (reference "C1") (unit 1) (value ".1uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
@@ -4270,9 +4267,6 @@
     )
     (path "/00000000-0000-0000-0000-000060df3b37"
       (reference "C13") (unit 1) (value "22uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-0000607ca03c"
-      (reference "EN1") (unit 1) (value "SW_Push") (footprint "tactile_switch:PTS645SK43SMTR92LF-CONNECTED")
     )
     (path "/00000000-0000-0000-0000-0000607f5acc"
       (reference "FB1") (unit 1) (value "Ferrite_Bead") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
@@ -4318,6 +4312,12 @@
     )
     (path "/00000000-0000-0000-0000-000060fc10f1"
       (reference "R7") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-0000607b30f3"
+      (reference "SW1") (unit 1) (value "BOOT") (footprint "tactile_switch:PTS645SK43SMTR92LF-CONNECTED")
+    )
+    (path "/00000000-0000-0000-0000-0000607ca03c"
+      (reference "SW2") (unit 1) (value "EN") (footprint "tactile_switch:PTS645SK43SMTR92LF-CONNECTED")
     )
     (path "/00000000-0000-0000-0000-0000607af546"
       (reference "U1") (unit 1) (value "ESP-WROOM-32") (footprint "esp32:MODULE_ESP-WROOM-32")
